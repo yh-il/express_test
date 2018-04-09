@@ -16,10 +16,10 @@ router.get('/', function (req, res) {
     // ファイル書き込み
     fs.writeFile('./routes/v1/data.json', JSON.stringify(data, null, '    '), (err) => {
         if (err) {
-            console.log('ファイル書き込みでエラーが発生しました ： ' + err);
+            console.log('(save.js)ファイル書き込みでエラーが発生しました ： ' + err);
             throw err;
         }  else {
-            console.log('ファイル書き込みが成功しました');
+            console.log('(save.js)ファイル書き込みが成功しました');
             res.json(data);
         }
     });

@@ -18,7 +18,9 @@
   },
   "homepage": "https://github.com/yh-il/express_test#readme",
   "dependencies": {
+    "axios": "^0.18.0",
     "body-parser": "^1.18.2",
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "nightmare": "^3.0.1"
   }
 }
