@@ -1,0 +1,19 @@
+{
+    "before": "0",
+    "tenpo_comment": [
+        "Ginza.1 -> 2",
+        "Shinjuku.East -> 3",
+        "Ikebukuro -> 4",
+        "Akihabara -> 5",
+        "Sannomiya -> 6",
+        "Shibuya -> 7"
+    ],
+    "tenpo": "4",
+    "day_comment": [
+        "今日 -> 1",
+        "明日 -> 2"
+    ],
+    "day": "1",
+    "lesson_comment": "上からの数（1スタート）",
+    "lesson": "1"
+}
