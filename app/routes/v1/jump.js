@@ -31,7 +31,7 @@ router.get('/', function (req, res) {
     // LINE Notify トークンセット
     MyLine.setToken(TOKEN);
     // メッセージ送信
-    // MyLine.notify('EXPRESS テスト');
+    MyLine.notify('AWS EXPRESS テスト');
 
     nightmare
 
